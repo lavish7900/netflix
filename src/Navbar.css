@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 100vw;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    z-index: 10;
+
+}
+.navbar > img{
+    height: 32px;
+    margin:0px 25px ;
+    object-fit: contain;
+}
+.show{
+    background-color: #111;
+}

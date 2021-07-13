@@ -1,0 +1,35 @@
+.row{
+    color: #fff;
+   margin-left:10px;
+
+}
+.row__inner{
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px;
+}
+.row__inner::-webkit-scrollbar {
+    display: none;
+  }
+.row__large{
+      height:250px;
+      width:100%;
+      
+    object-fit: contain;
+    margin: 10px;
+    transition: transform 0.4s;
+  } 
+.row__large:hover{
+    transform: scale(1.1);
+}
+.row__image{
+    
+    height: 100px;
+    width:100%;
+    object-fit: contain;
+    margin: 10px;
+    transition: transform 0.4s;
+}
+.row__image:hover{
+    transform: scale(1.1);
+}
